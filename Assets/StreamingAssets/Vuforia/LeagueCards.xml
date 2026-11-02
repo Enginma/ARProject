@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="yasuo_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="vi_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="renekton_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="irelia_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="azir_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="riven_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="master_yi_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="kennen_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="jayce_rgb" size="0.220000 0.307231" />
+    <ImageTarget name="jarvan_rgb" size="0.220000 0.307231" />
+  </Tracking>
+</QCARConfig>
