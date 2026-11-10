@@ -115,3 +115,5 @@ InitTestScene*.unity*
 
 # Local Vuforia package archive
 /Packages/com.ptc.vuforia.engine-*.tgz
+
+/Assets/Editor/Migration/com.ptc.vuforia.engine-11.4.4.tgz
