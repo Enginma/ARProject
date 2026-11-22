@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710257d4b5cb49018a4af0807829189, type: 3}
+  m_Name: azir
+  m_EditorClassIdentifier: Assembly-CSharp::ARProject.Battle.ChampionStats
+  championId: azir
+  championName: Azir
+  healthPoints: 100
+  passiveAbility:
+    abilityName: Ascending Sands
+    description: Passive effect for Azir; damage 18.
+    turnCooldown: 0
+    damage: 18
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564690
+  passiveAbilitySound: {fileID: 0}
+  ability1:
+    abilityName: Shifting Sands
+    description: A damaging ability that deals 24 damage.
+    turnCooldown: 2
+    damage: 24
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564691
+  ability1Sound: {fileID: 0}
+  ability2:
+    abilityName: Royal Guards
+    description: A damaging ability that deals 30 damage.
+    turnCooldown: 3
+    damage: 30
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564692
+  ability2Sound: {fileID: 0}
+  ultimateAbility:
+    abilityName: Conquered Dawn
+    description: An ultimate ability that deals 40 damage.
+    turnCooldown: 5
+    damage: 40
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564693
+  ultimateAbilitySound: {fileID: 0}
+  modelPrefab: {fileID: 2107409826236812522, guid: cd0daaabd14aef043be4a94c4f0bb18d, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1857989352577564690
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 18 damage
+        damage: 18
+    - rid: 1857989352577564691
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 24 damage
+        damage: 24
+    - rid: 1857989352577564692
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 30 damage
+        damage: 30
+    - rid: 1857989352577564693
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 40 damage
+        damage: 40

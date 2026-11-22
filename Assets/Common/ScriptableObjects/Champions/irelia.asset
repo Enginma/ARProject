@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710257d4b5cb49018a4af0807829189, type: 3}
+  m_Name: irelia
+  m_EditorClassIdentifier: Assembly-CSharp::ARProject.Battle.ChampionStats
+  championId: irelia
+  championName: Irelia
+  healthPoints: 110
+  passiveAbility:
+    abilityName: Duelist's Resolve
+    description: Passive effect for Irelia; damage 20.
+    turnCooldown: 0
+    damage: 20
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564702
+  passiveAbilitySound: {fileID: 0}
+  ability1:
+    abilityName: Blade Surge
+    description: A damaging ability that deals 26 damage.
+    turnCooldown: 2
+    damage: 26
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564703
+  ability1Sound: {fileID: 0}
+  ability2:
+    abilityName: Bladesong
+    description: A damaging ability that deals 31 damage.
+    turnCooldown: 3
+    damage: 31
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564704
+  ability2Sound: {fileID: 0}
+  ultimateAbility:
+    abilityName: Perfect Convergence
+    description: An ultimate ability that deals 42 damage.
+    turnCooldown: 5
+    damage: 42
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564705
+  ultimateAbilitySound: {fileID: 0}
+  modelPrefab: {fileID: 2107409826236812522, guid: 73b885ee4a18f034f97c7b46af050d3a, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1857989352577564702
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 20 damage
+        damage: 20
+    - rid: 1857989352577564703
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 26 damage
+        damage: 26
+    - rid: 1857989352577564704
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 31 damage
+        damage: 31
+    - rid: 1857989352577564705
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 42 damage
+        damage: 42

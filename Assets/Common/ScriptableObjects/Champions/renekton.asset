@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710257d4b5cb49018a4af0807829189, type: 3}
+  m_Name: renekton
+  m_EditorClassIdentifier: Assembly-CSharp::ARProject.Battle.ChampionStats
+  championId: renekton
+  championName: Renekton
+  healthPoints: 125
+  passiveAbility:
+    abilityName: Battle Fury
+    description: Passive effect for Renekton; damage 18.
+    turnCooldown: 0
+    damage: 18
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564674
+  passiveAbilitySound: {fileID: 0}
+  ability1:
+    abilityName: Cull the Meek
+    description: A damaging ability that deals 26 damage.
+    turnCooldown: 2
+    damage: 26
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564675
+  ability1Sound: {fileID: 0}
+  ability2:
+    abilityName: Ruthless Predator
+    description: A damaging ability that deals 31 damage.
+    turnCooldown: 3
+    damage: 31
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564676
+  ability2Sound: {fileID: 0}
+  ultimateAbility:
+    abilityName: Dominus
+    description: An ultimate ability that deals 46 damage.
+    turnCooldown: 5
+    damage: 46
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564677
+  ultimateAbilitySound: {fileID: 0}
+  modelPrefab: {fileID: 2107409826236812522, guid: 837745bd6d222254f96a50269464a28f, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1857989352577564674
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 18 damage
+        damage: 18
+    - rid: 1857989352577564675
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 26 damage
+        damage: 26
+    - rid: 1857989352577564676
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 31 damage
+        damage: 31
+    - rid: 1857989352577564677
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 46 damage
+        damage: 46

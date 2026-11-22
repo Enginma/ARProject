@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8710257d4b5cb49018a4af0807829189, type: 3}
+  m_Name: vi
+  m_EditorClassIdentifier: Assembly-CSharp::ARProject.Battle.ChampionStats
+  championId: vi
+  championName: Vi
+  healthPoints: 125
+  passiveAbility:
+    abilityName: Relentless Force
+    description: Passive effect for Vi; damage 19.
+    turnCooldown: 0
+    damage: 19
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564686
+  passiveAbilitySound: {fileID: 0}
+  ability1:
+    abilityName: Vault Breaker
+    description: A damaging ability that deals 27 damage.
+    turnCooldown: 2
+    damage: 27
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564687
+  ability1Sound: {fileID: 0}
+  ability2:
+    abilityName: Excessive Force
+    description: A damaging ability that deals 29 damage.
+    turnCooldown: 3
+    damage: 29
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564688
+  ability2Sound: {fileID: 0}
+  ultimateAbility:
+    abilityName: Ceiling Crash
+    description: An ultimate ability that deals 48 damage.
+    turnCooldown: 5
+    damage: 48
+    activationSound: {fileID: 0}
+    possibleEffects:
+    - rid: 1857989352577564689
+  ultimateAbilitySound: {fileID: 0}
+  modelPrefab: {fileID: 2107409826236812522, guid: e07f214063f2da04bbc2fa9c6dd0fb3e, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1857989352577564686
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 19 damage
+        damage: 19
+    - rid: 1857989352577564687
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 27 damage
+        damage: 27
+    - rid: 1857989352577564688
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 29 damage
+        damage: 29
+    - rid: 1857989352577564689
+      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
+      data:
+        description: Deal 48 damage
+        damage: 48
