@@ -14,64 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ARProject.Battle.ChampionStats
   championId: riven
   championName: Riven
-  healthPoints: 115
+  healthPoints: 100
   passiveAbility:
     abilityName: Runic Blade
-    description: Passive effect for Riven; damage 20.
+    description: 'After an ability usage, your next ability do 10 more damage. '
     turnCooldown: 0
-    damage: 20
-    activationSound: {fileID: 0}
-    possibleEffects:
-    - rid: 1857989352577564694
+    damage: 0
+    activationAnimation: {fileID: 0}
   passiveAbilitySound: {fileID: 0}
   ability1:
     abilityName: Broken Wings
-    description: A damaging ability that deals 29 damage.
+    description: Deal 25 damage.
     turnCooldown: 2
-    damage: 29
-    activationSound: {fileID: 0}
-    possibleEffects:
-    - rid: 1857989352577564695
+    damage: 25
+    activationAnimation: {fileID: -6913573464448513638, guid: 780c32bea682b8b438cfd93c1ddeed2b, type: 3}
   ability1Sound: {fileID: 0}
   ability2:
     abilityName: Valor
-    description: A damaging ability that deals 24 damage.
+    description: Deal 10 damage and Stuns.
     turnCooldown: 3
-    damage: 24
-    activationSound: {fileID: 0}
-    possibleEffects:
-    - rid: 1857989352577564696
+    damage: 10
+    activationAnimation: {fileID: -354336378234359926, guid: 780c32bea682b8b438cfd93c1ddeed2b, type: 3}
   ability2Sound: {fileID: 0}
   ultimateAbility:
     abilityName: Blade of the Exile
-    description: An ultimate ability that deals 47 damage.
+    description: 'Do 30 damage to all enemies. '
     turnCooldown: 5
-    damage: 47
-    activationSound: {fileID: 0}
-    possibleEffects:
-    - rid: 1857989352577564697
+    damage: 30
+    activationAnimation: {fileID: -844452933979737147, guid: 780c32bea682b8b438cfd93c1ddeed2b, type: 3}
   ultimateAbilitySound: {fileID: 0}
   modelPrefab: {fileID: 2107409826236812522, guid: 780c32bea682b8b438cfd93c1ddeed2b, type: 3}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1857989352577564694
-      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
-      data:
-        description: Deal 20 damage
-        damage: 20
-    - rid: 1857989352577564695
-      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
-      data:
-        description: Deal 29 damage
-        damage: 29
-    - rid: 1857989352577564696
-      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
-      data:
-        description: Deal 24 damage
-        damage: 24
-    - rid: 1857989352577564697
-      type: {class: DamageEffect, ns: ARProject.Battle, asm: Assembly-CSharp}
-      data:
-        description: Deal 47 damage
-        damage: 47
